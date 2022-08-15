@@ -1,26 +1,30 @@
 FakeMCServer
 ============
 
-A Fake MinecraftServer, that shows the following messages:
-* motd
-* version
-* maxplayers
-* playerlist
-* kickmessage<br />
-You can customize all messages.
+虚拟一个Minecraft服务器, 并显示如下消息:
+* MOTD
+* 版本
+* 最大玩家数量
+* 玩家列表
+* 踢出消息  
+你可以自定义所有的消息
 
-Compile the .jar or download the compiled version here: https://mega.co.nz/#!ad1AUCKD!IDdb8dw8hCcy_r0InkkBK58OOEEuVEv_gNGt-L__QVk<br />
-then open cmd, goto the folder that contains the file (with cd), and run it with:<br />
-java -jar FakeMCServer.jar -ip localhost -port 25565<br />
-(you can change the ip and port)<br />
-<br />
+Jar文件请转到Actions下载自动构建的压缩文件并使用带有***jar-with-dependencies***的文件
 
-you can use color codes with '&' (for example "&4I'm Red!")<br />
-you can make new lines with '\n' for multiline motd, the playerlist and the kickmessage<br />
-you can use unicode: if you want to use special charakters, the convert to JavaScript Escapes (http://rishida.net/tools/conversion/)<br />
+---
+使用cmd, shell等命令行输入   
+```shell
+java -jar FakeMCServer-1.0-SNAPSHOT-jar-with-dependencies.jar -ip localhost -port 25565
+```
+即可开始运行  
 
-Have fun ;)
+支持使用颜色代码 '&' (例如 "&4I'm Red!")  
+可以使用 '\n' 在 MOTD， 玩家列表, 踢出消息 中换行   
+也可以用特殊字符,但不是很建议  
 
-##NOTE
-I don't maintain this project anymore. Feel free to fork or and update your this project.<br />
-If you want to maintain and update this repo, just make a pull request and write me an email to michidk@live.de.
+用的开心 ;)
+
+### 基于原README翻译修改而来
+
+View old English README.md  
+https://github.com/HAPPYLAND-Dev/FakeMCServer/blob/master/README-EN.md
